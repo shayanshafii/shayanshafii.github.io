@@ -28,5 +28,10 @@ a {
 
 #writing {
 	margin-top: 30px;
+	margin-bottom: 5px;
+}
+
+#analyzer_description {
+	margin-top: -10px;
 }
 
