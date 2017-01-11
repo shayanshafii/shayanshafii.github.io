@@ -26,6 +26,11 @@ a {
 	text-decoration: none;
 }
 
+a:hover { 
+    background-color: black;
+    color: white;
+}
+
 #writing {
 	margin-top: 30px;
 	margin-bottom: 5px;
