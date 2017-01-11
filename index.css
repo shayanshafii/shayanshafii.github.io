@@ -3,15 +3,15 @@ body {
  font-family: Helvetica, Sans-serif;
 }
 
+a:hover { 
+    background-color: black;
+    color: white;
+}
+
 a, p {
 	font-size: 24px;
 	font-weight: 100;
 	color: black;
 	text-decoration: none;
 	display: inline;
-}
-
-a:hover { 
-    background-color: black;
-    color: white;
 }
