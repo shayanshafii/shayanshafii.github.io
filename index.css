@@ -3,11 +3,6 @@ body {
  font-family: Helvetica, Sans-serif;
 }
 
-a:hover { 
-    background-color: black;
-    color: white;
-}
-
 h1 {
 	font-size: 60px;
 }
@@ -18,4 +13,9 @@ a, p {
 	color: black;
 	text-decoration: none;
 	display: inline;
+}
+
+a:hover { 
+    background-color: black;
+    color: white;
 }
