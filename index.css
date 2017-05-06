@@ -1,21 +1,19 @@
+@font-face { font-family: azaura; src: url('azaura.ttf'); } 
+@font-face { font-family: azaura; font-weight: bold; src: url('azaura.ttf');}
+
 body {
- margin: 40px;
- font-family: Helvetica, Sans-serif;
+	font-family: azaura;
+	margin:0;
+	padding:0;
+	height:100%;
 }
 
-h1 {
-	font-size: 60px;
+.col-md-12 {
+	text-align: center;
+	padding-top: 10vh;
 }
 
-a, p {
-	font-size: 35px;
-	font-weight: 100;
-	color: black;
-	text-decoration: none;
-	display: inline;
-}
-
-a:hover { 
-    background-color: black;
-    color: white;
+img {
+	width: 60%;
+	align-content: center;
 }
