@@ -1,0 +1,51 @@
+@font-face {
+	font-family: 'gt-america-trial-bold';
+	src: url('fonts/gt-america-trial-bold.otf');
+}
+
+@font-face {
+	font-family: 'gt-america-trial-medium';
+	src: url('fonts/gt-america-trial-medium.otf');
+}
+
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'gt-america-trial-medium';
+}
+
+#banner {
+    font-family: 'gt-america-trial-bold';
+    font-size: 35px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    
+    overflow: hidden;
+    position:sticky;
+    top:0;
+}
+
+#back {
+    font-size: 45px;
+    align-content: flex-start;
+}
+
+a, a:hover, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.sound_item {
+    padding-bottom: 50px;
+}
+
+img {
+    width: 90%;
+}
+
+.blurb {
+    text-align: left;
+    font-size: 24px;
+}
+

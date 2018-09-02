@@ -1,0 +1,83 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+@font-face {
+	font-family: 'gt-sectra-bold';
+	src: url('fonts/gt-sectra-bold.ttf');
+}
+
+@font-face {
+	font-family: 'gt-america-trial-expanded-medium';
+	src: url('fonts/gt-america-trial-expanded-medium.otf');
+}
+
+/* keyframes for fade */
+@-webkit-keyframes fade_in {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-moz-keyframes fade_in {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-o-keyframes fade_in {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+@keyframes fade_in {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.fade_in {
+    -webkit-animation: fade_in ease-in 1;
+    -moz-animation: fade_in ease-in 1;
+    animation: fade_in ease-in 1;
+
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    animation-duration: 2s;
+}
+
+#splash {
+    position: relative;
+}
+
+#globe {
+    padding-top: 40px;
+    padding-bottom: 35px;
+    width: 33%;
+}
+
+#welcome {
+    font-family: 'gt-sectra-bold';
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 135px;
+    opacity: 0;
+    
+    -webkit-animation-delay: 1.5s;
+    -moz-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+
+#enter {
+    font-family: 'gt-america-trial-expanded-medium';
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    opacity: 0;
+    
+    -webkit-animation-delay: 3.5s;
+    -moz-animation-delay: 3.5s;
+    animation-delay: 3.5s;
+}
