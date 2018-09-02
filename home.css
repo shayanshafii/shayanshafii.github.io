@@ -23,7 +23,7 @@ body {
 
 img {
     width: 100%;
-    padding-bottom: 25px;
+    padding-bottom: 30px;
 }
 
 #buttons {
@@ -38,17 +38,3 @@ img {
     display: inline-block;
     
 }
-
-/*
-#projects {
-    float: left;
-}
-
-#sounds {
-    float: none;
-}
-
-#100p {
-    float: right;
-}
-*/
