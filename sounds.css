@@ -10,10 +10,10 @@
 
 body {
     font-family: 'gt-america-trial-medium', 'Helvetica Neue';
+    font-size: 100%;
     background-color: black;
     color: white;
     text-align: center;
-    
 }
 
 #banner {

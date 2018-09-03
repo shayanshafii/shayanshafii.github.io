@@ -16,7 +16,6 @@ body {
 }
 
 #banner {
-    font-size: 300%
     font-family: 'gt-america-trial-bold';
     padding-top: 3%;
     padding-bottom: 2%;
@@ -45,7 +44,6 @@ img {
 }
 
 .button, .button:hover, .button:visited, .button:active {
-    font-size: 300%
     text-decoration: none;
     color: white;
 }
@@ -54,7 +52,7 @@ img {
 @media only screen and (max-device-width : 812px) { 
     
     #banner {
-        font-size: 1800%;
+        font-size: 600%;
     }
     
     #poster {
@@ -67,7 +65,7 @@ img {
 
     img {
         width: 100%;
-        padding-bottom: 4%;
+        padding-bottom: 3%;
     }
 
     #buttons {
@@ -78,8 +76,7 @@ img {
     }
     
     .button {
-        font-size: 1200%;
-        padding-bottom: 3%;
+        font-size: 400%
     }
     
 }
