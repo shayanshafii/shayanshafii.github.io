@@ -72,12 +72,8 @@ img {
 @media only screen and (max-device-width : 812px) { 
     
     #banner {
-        font-size: 600%;
-        font-family: 'gt-america-trial-bold', 'Helvetica Neue';
+        font-size: 1200%;
         padding-bottom: 4%;
-        overflow: hidden;
-        position:sticky;
-        top: 0;
     }
     
     .sound_item {
@@ -103,10 +99,6 @@ img {
         margin-right: 0%;
         font-size: 300%;
         text-align: center;
-    }
-
-    .title {
-        font-family: 'gt-america-trial-bold';
     }
 
     .description {
