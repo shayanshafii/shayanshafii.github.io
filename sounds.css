@@ -89,12 +89,17 @@ img {
         margin-left: 0%;
         margin-right: 0%;
     }
+    
+    img {
+        width: 100%;
+    }
 
     .blurb {
         width: 80%;
         margin-left: 0%;
         margin-right: 0%;
         font-size: 170%;
+        text-align: center;
     }
 
     .title {
