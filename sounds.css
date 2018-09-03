@@ -77,7 +77,7 @@ img {
     }
     
     .sound_item {
-        padding-bottom: 10%;
+        padding-bottom: 15%;
         display: flex;
         flex-direction: column; 
         width: 100%;
@@ -102,7 +102,6 @@ img {
     
     .title, .description {
         font-size: 300%;
-        padding-top: 3%;
     }
 }
 
