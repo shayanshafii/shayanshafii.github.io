@@ -16,6 +16,7 @@ body {
 }
 
 #banner {
+    font-size: 300%
     font-family: 'gt-america-trial-bold';
     padding-top: 3%;
     padding-bottom: 2%;
@@ -44,6 +45,7 @@ img {
 }
 
 .button, .button:hover, .button:visited, .button:active {
+    font-size: 300%
     text-decoration: none;
     color: white;
 }
