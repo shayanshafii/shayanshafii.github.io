@@ -85,13 +85,16 @@ body {
 
 
 @media only screen and (max-device-width : 812px) { 
-     
+    
+    .col-xs-4 {
+        align-content: center;
+        justify-content: center;
+    }
+    
     #globe {
         padding-top: 70%;
         padding-bottom: 30%;
         width: 250%;
-        align-content: center;
-        justify-content: center;
     }
 
     #welcome {
