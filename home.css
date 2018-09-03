@@ -38,7 +38,6 @@ img {
 
 #buttons {
     font-family: 'gt-america-trial-medium', 'Helvetica Neue';
-    font-size: 100%;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -48,6 +47,7 @@ img {
 .button, .button:hover, .button:visited, .button:active {
     text-decoration: none;
     color: white;
+    font-size: 100%;
 }
 
 
