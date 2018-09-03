@@ -46,7 +46,7 @@ body {
     animation-duration: 2s;
 }
 
-.col-xs-4 {
+.col-xs-12 {
     align-content: center;
     justify-content: center;
 }
@@ -56,15 +56,15 @@ body {
 }
 
 #globe {
-    padding-top: 10%;
-    padding-bottom: 8%;
-    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 31%;
 }
 
 #welcome {
     font-family: 'gt-sectra-bold';
     position: absolute;
-    top: 52%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 900%;
@@ -93,7 +93,7 @@ body {
     #globe {
         padding-top: 70%;
         padding-bottom: 30%;
-        width: 250%;
+        width: 50%;
     }
 
     #welcome {
