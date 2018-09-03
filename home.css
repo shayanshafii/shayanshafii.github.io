@@ -11,7 +11,7 @@
 body {
     background-color: black;
     color: white;
-    font-size: 300%;
+    font-size: 100%;
     text-align: center;
 }
 
@@ -52,7 +52,7 @@ img {
 @media only screen and (max-device-width : 812px) { 
     
     #banner {
-        font-size: 600%;
+        font-size: 1800%;
     }
     
     #poster {
@@ -76,7 +76,7 @@ img {
     }
     
     .button {
-        font-size: 400%
+        font-size: 1200%
     }
     
 }
