@@ -60,7 +60,7 @@ img {
 }
 
 .title {
-    font-weight: bold;
+    font-family: 'gt-america-trial-bold';
 }
 
 .description {
@@ -71,7 +71,7 @@ img {
 @media only screen and (max-device-width : 812px) { 
     
     #banner {
-        font-size: 300%;
+        font-size: 600%;
     }
     
     .sound_item {
@@ -85,18 +85,19 @@ img {
     
     .cover {
         width: 90%;
-        margin: auto;
+        margin-left: 0%;
+        margin-right: 0%;
     }
 
     .blurb {
-        width: 100%;
-        margin: auto;
-        text-align: left;
+        width: 90%;
+        margin-left: 0%;
+        margin-right: 0%;
         font-size: 170%;
     }
 
     .title {
-        font-weight: bold;
+        font-family: 'gt-america-trial-bold';
     }
 
     .description {
