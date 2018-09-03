@@ -46,11 +46,6 @@ body {
     animation-duration: 2s;
 }
 
-.col-xs-12 {
-    align-content: center;
-    justify-content: center;
-}
-
 #splash {
     position: relative;
 }
@@ -64,7 +59,7 @@ body {
 #welcome {
     font-family: 'gt-sectra-bold';
     position: absolute;
-    top: 50%;
+    top: 53%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 900%;
