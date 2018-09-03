@@ -52,6 +52,7 @@ img {
 @media only screen and (max-device-width : 812px) { 
     
     #banner {
+        font-size: 300%;
         padding-top: 70%;
         padding-bottom: 30%;
     }

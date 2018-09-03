@@ -70,11 +70,17 @@ img {
 
 @media only screen and (max-device-width : 812px) { 
     
+    #banner {
+        font-size: 300%;
+    }
+    
     .sound_item {
         padding-bottom: 10%;
         display: flex;
         flex-direction: column; 
         width: 80%;
+        text-align: center;
+        align-content: center;
     }
     
     .cover {
