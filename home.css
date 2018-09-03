@@ -54,7 +54,8 @@ img {
 @media only screen and (max-device-width : 812px) { 
     
     #banner {
-        font-size: 1200%;
+        font-size: 1300%;
+        padding-bottom: 3%;
     }
     
     #poster {
