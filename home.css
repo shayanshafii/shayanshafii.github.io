@@ -70,10 +70,13 @@ img {
 
     #buttons {
         width: 100%;
-        font-size: 200%
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+    }
+    
+    .button {
+        font-size: 400%
     }
     
 }
