@@ -54,7 +54,7 @@ img {
 @media only screen and (max-device-width : 812px) { 
     
     #banner {
-        font-size: 1100%;
+        font-size: 1200%;
     }
     
     #poster {
@@ -78,7 +78,7 @@ img {
     }
     
     .button, .button:hover, .button:visited, .button:active {
-        font-size: 1000%
+        font-size: 1200%
     }
     
 }
