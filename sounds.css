@@ -81,6 +81,7 @@ img {
         width: 80%;
         text-align: center;
         align-content: center;
+        margin: auto;
     }
     
     .cover {
@@ -90,7 +91,7 @@ img {
     }
 
     .blurb {
-        width: 90%;
+        width: 80%;
         margin-left: 0%;
         margin-right: 0%;
         font-size: 170%;
