@@ -65,7 +65,7 @@ img {
 
     img {
         width: 100%;
-        padding-bottom: 3%;
+        padding-bottom: 4%;
     }
 
     #buttons {
@@ -76,7 +76,8 @@ img {
     }
     
     .button {
-        font-size: 1200%
+        font-size: 1200%;
+        padding-bottom: 3%;
     }
     
 }
