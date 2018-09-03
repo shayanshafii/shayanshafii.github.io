@@ -46,6 +46,11 @@ body {
     animation-duration: 2s;
 }
 
+.col-xs-4 {
+    align-content: center;
+    justify-content: center;
+}
+
 #splash {
     position: relative;
 }
@@ -83,13 +88,7 @@ body {
 }
 
 
-
 @media only screen and (max-device-width : 812px) { 
-    
-    .col-xs-4 {
-        align-content: center;
-        justify-content: center;
-    }
     
     #globe {
         padding-top: 70%;
