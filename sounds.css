@@ -104,8 +104,12 @@ img {
         text-align: center;
     }
     
-    .title, .description {
+    .title {
         font-size: 300%;
+    }
+    
+    .description {
+        font-size: 200%;
     }
 }
 
