@@ -10,10 +10,10 @@
 
 body {
     font-family: 'gt-america-trial-medium', 'Helvetica Neue';
-    font-size: 100%
     background-color: black;
     color: white;
     text-align: center;
+    
 }
 
 #banner {
@@ -72,7 +72,7 @@ img {
 @media only screen and (max-device-width : 812px) { 
     
     #banner {
-        font-size: 1000%;
+        font-size: 600%;
         font-family: 'gt-america-trial-bold', 'Helvetica Neue';
         padding-bottom: 4%;
         overflow: hidden;
