@@ -51,18 +51,18 @@ body {
 }
 
 #globe {
-    padding-top: 40px;
-    padding-bottom: 35px;
+    padding-top: 10%;
+    padding-bottom: 8%;
     width: 100%;
 }
 
 #welcome {
     font-family: 'gt-sectra-bold';
     position: absolute;
-    top: 50%;
+    top: 52%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 135px;
+    font-size: 900%;
     opacity: 0;
     
     -webkit-animation-delay: 1.5s;
@@ -74,7 +74,7 @@ body {
     font-family: 'gt-america-trial-expanded-medium';
     text-decoration: none;
     color: white;
-    font-size: 35px;
+    font-size: 250%;
     opacity: 0;
     
     -webkit-animation-delay: 3.5s;
@@ -88,9 +88,36 @@ body {
 and (min-device-width : 375px) 
 and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3) { 
-    
-    
-    /* STYLES GO HERE */
+     
+    #globe {
+        padding-top: 10%;
+        padding-bottom: 8%;
+        width: 100%;
+    }
 
+    #welcome {
+        font-family: 'gt-sectra-bold';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+/*        font-size: 135px;*/
+        opacity: 0;
 
+        -webkit-animation-delay: 1.5s;
+        -moz-animation-delay: 1.5s;
+        animation-delay: 1.5s;
+    }
+
+    #enter {
+        font-family: 'gt-america-trial-expanded-medium';
+        text-decoration: none;
+        color: white;
+/*        font-size: 35px;*/
+        opacity: 0;
+
+        -webkit-animation-delay: 3.5s;
+        -moz-animation-delay: 3.5s;
+        animation-delay: 3.5s;
+    }
 }
