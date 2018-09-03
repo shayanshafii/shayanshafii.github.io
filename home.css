@@ -47,7 +47,7 @@ img {
 .button, .button:hover, .button:visited, .button:active {
     text-decoration: none;
     color: white;
-    font-size: 100%;
+    font-size: 300%;
 }
 
 
