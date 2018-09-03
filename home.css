@@ -77,7 +77,7 @@ img {
         justify-content: space-between;
     }
     
-    .button {
+    .button, .button:hover, .button:visited, .button:active {
         font-size: 1200%
     }
     
