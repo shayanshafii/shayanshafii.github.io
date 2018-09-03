@@ -28,6 +28,7 @@ body {
 
 #back {
     font-size: 250%;
+    font-weight: bold;
     align-content: flex-start;
 }
 
