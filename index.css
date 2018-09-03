@@ -90,6 +90,8 @@ body {
         padding-top: 70%;
         padding-bottom: 30%;
         width: 250%;
+        align-content: center;
+        justify-content: center;
     }
 
     #welcome {
