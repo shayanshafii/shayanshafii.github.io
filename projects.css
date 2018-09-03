@@ -9,29 +9,46 @@
 }
 
 body {
+    font-family: 'gt-america-trial-medium', 'Helvetica Neue';
+    font-size: 100%;
     background-color: black;
     color: white;
     text-align: center;
-    font-family: 'gt-america-trial-medium';
 }
 
 #banner {
-    font-family: 'gt-america-trial-bold';
-    font-size: 35px;
-    padding-top: 30px;
-    padding-bottom: 50px;
-    
+    font-family: 'gt-america-trial-bold', 'Helvetica Neue';
+    font-size: 300%;
+    padding-top: 3%;
+    padding-bottom: 4%;
     overflow: hidden;
     position:sticky;
     top:0;
 }
 
 #back {
-    font-size: 45px;
+    font-size: 150%;
+    font-weight: bold;
     align-content: flex-start;
 }
 
 a, a:hover, a:visited {
     text-decoration: none;
     color: white;
+}
+
+@media only screen and (max-device-width : 812px) { 
+    
+    #banner {
+        font-size: 1200%;
+        padding-bottom: 4%;
+    }
+    
+    #back {
+        font-size: 100%;
+        font-weight: bold;
+    }
+    
+    
+    
 }
