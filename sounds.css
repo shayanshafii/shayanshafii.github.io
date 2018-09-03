@@ -36,10 +36,10 @@ a, a:hover, a:visited {
 }
 
 .sound_item {
+    width: 100%;
     padding-bottom: 4%;
     display: flex;
     flex-direction: row; 
-    width: 100%;
 }
 
 .cover {
