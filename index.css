@@ -87,9 +87,9 @@ body {
 @media only screen and (max-device-width : 812px) { 
      
     #globe {
-        padding-top: 10%;
-        padding-bottom: 8%;
-        width: 100%;
+        padding-top: 70%;
+        padding-bottom: 30%;
+        width: 250%;
     }
 
     #welcome {
