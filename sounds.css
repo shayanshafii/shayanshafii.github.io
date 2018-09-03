@@ -72,6 +72,11 @@ img {
     
     #banner {
         font-size: 600%;
+        font-family: 'gt-america-trial-bold', 'Helvetica Neue';
+        padding-bottom: 4%;
+        overflow: hidden;
+        position:sticky;
+        top: 0;
     }
     
     .sound_item {
@@ -100,10 +105,8 @@ img {
 
     .title {
         font-family: 'gt-america-trial-bold';
-    }
-
-    .description {
         padding-top: 3%;
+        padding-bottom: 3%;
     }
     
 }
