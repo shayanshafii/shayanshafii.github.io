@@ -58,15 +58,16 @@ img {
     width: 50%;
     margin-right: 5%;
     text-align: left;
-    font-size: 230%;
 }
 
 .title {
     font-family: 'gt-america-trial-bold';
+    font-size: 300%;
 }
 
 .description {
     padding-top: 3%;
+    font-size: 250%;
 }
 
 
