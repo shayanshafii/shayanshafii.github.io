@@ -97,14 +97,13 @@ img {
         width: 100%;
         margin-left: 0%;
         margin-right: 0%;
-        font-size: 300%;
         text-align: center;
     }
-
-    .description {
+    
+    .title, .description {
+        font-size: 300%;
         padding-top: 3%;
     }
-    
 }
 
 
