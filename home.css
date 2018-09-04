@@ -90,6 +90,7 @@ img {
     }
     
     #bullets_div, #kanye_div, #dilla_div {
+        position: relative;
         padding: 10%;
     }
     
