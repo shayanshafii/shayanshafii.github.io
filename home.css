@@ -70,7 +70,7 @@ img {
     }
     
     #bullets, #kanye, #dilla {
-        visibility: visible;
+        display: flex;
     }
 
     #buttons {
