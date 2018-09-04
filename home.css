@@ -76,6 +76,10 @@ img {
         justify-content: space-between;
     }
     
+    #bullets, #kanye, #dilla {
+        visibility: visible;
+    }
+    
     #bullets_div, #kanye_div, #dilla_div {
         display: flex;
         flex-direction: column;
