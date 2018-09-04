@@ -68,17 +68,17 @@ img {
         align-content: center;
         margin: auto;
     }
+    
+    #bullets_div, #kanye_div, #dilla_div {
+        display: contents;
+        padding-bottom: 3%;
+    }
 
     #buttons {
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-    }
-    
-    #bullets_div, #kanye_div, #dilla_div {
-        display: contents;
-        padding-bottom: 3%;
     }
     
     .button, .button:hover, .button:visited, .button:active {
