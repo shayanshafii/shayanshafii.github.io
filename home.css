@@ -111,7 +111,6 @@ body {
     }
     
     #projects {
-        opacity: 0;
         -webkit-animation-delay: 0s;
         -moz-animation-delay: 0s;
         animation-delay: 0s;
