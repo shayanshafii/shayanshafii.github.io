@@ -41,7 +41,6 @@ body {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 
 .button, .button:hover, .button:visited, .button:active {
