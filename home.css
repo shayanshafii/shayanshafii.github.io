@@ -76,12 +76,10 @@ img {
         justify-content: space-between;
     }
     
-/*
     #bullets, #kanye, #dilla {
         display: flex;
         flex-direction: column;
     }
-*/
     
     .button, .button:hover, .button:visited, .button:active {
         font-size: 1000%
