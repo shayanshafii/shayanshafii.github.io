@@ -73,6 +73,7 @@ body {
     
     .button, .button:hover, .button:visited, .button:active {
         font-size: 1500%;
+        padding-bottom: 25%;
     }
     
 }
