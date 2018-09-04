@@ -76,15 +76,17 @@ img {
         justify-content: space-between;
     }
     
-    #bullets_div, #kanye_div, #dilla_div {
-        display: flex;
-        flex-direction: column;
-        padding-bottom: 3%;
+    #bullets, #kanye, #dilla {
+        display: block;
     }
     
     .button, .button:hover, .button:visited, .button:active {
         font-size: 1000%;
-        margin: 0%;
+        margin: 0;
+    }
+    
+    #bullets_div, #kanye_div, #dilla_div {
+        padding-bottom: 3%;
     }
     
 }
