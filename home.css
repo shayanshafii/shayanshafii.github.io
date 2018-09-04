@@ -103,31 +103,16 @@ body {
         display: flex;
         flex-direction: column;
         padding-top: 10%;
-    }
-    
-    .button, .button:hover, .button:visited, .button:active {
-        font-size: 1500%;
-        padding-bottom: 25%;
-    }
-    
-    #projects {
+        
+        opacity: 0;
         -webkit-animation-delay: 0s;
         -moz-animation-delay: 0s;
         animation-delay: 0s;
     }
     
-    #sounds {
-        opacity: 0;
-        -webkit-animation-delay: 1s;
-        -moz-animation-delay: 1s;
-        animation-delay: 1s;
-    }
-    
-    #100p {
-        opacity: 0;
-        -webkit-animation-delay: 2s;
-        -moz-animation-delay: 2s;
-        animation-delay: 2s;
+    .button, .button:hover, .button:visited, .button:active {
+        font-size: 1500%;
+        padding-bottom: 25%;
     }
     
 }
