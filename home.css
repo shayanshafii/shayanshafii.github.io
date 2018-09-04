@@ -77,7 +77,7 @@ img {
     }
     
     #bullets, #kanye, #dilla {
-        visibility: visible;
+        display: inherit;
     }
     
     #bullets_div, #kanye_div, #dilla_div {
