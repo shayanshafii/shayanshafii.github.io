@@ -18,7 +18,7 @@ body {
 
 #banner {
     font-family: 'gt-america-trial-bold', 'Helvetica Neue';
-    font-size: 400%;
+    font-size: 300%;
     padding-top: 3%;
     padding-bottom: 4%;
     overflow: hidden;
@@ -27,7 +27,7 @@ body {
 }
 
 #back {
-    font-size: 100%;
+    font-size: 130%;
     font-weight: bold;
     align-content: flex-start;
 }
