@@ -36,6 +36,10 @@ img {
     padding-bottom: 6%;
 }
 
+#bullets, #kanye, #dilla {
+    display: none;
+}
+
 #buttons {
     font-family: 'gt-america-trial-medium', 'Helvetica Neue';
     width: 100%;
@@ -61,6 +65,10 @@ img {
 */
     }
     
+    #london {
+        display: none;
+    }
+    
     #poster {
         width: 90%;
         text-align: center;
@@ -69,16 +77,14 @@ img {
         margin: auto;
     }
 
-    img {
-        display: none;
 /*
+    img {
         width: 100%; 
         padding-bottom: 3%;
-*/
     }
+*/
 
     #buttons {
-        top: 50%;
         width: 100%;
         display: flex;
         flex-direction: column;
