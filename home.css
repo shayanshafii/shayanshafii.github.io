@@ -67,6 +67,8 @@ img {
         justify-content: center;
         align-content: center;
         margin: auto;
+        display: flex;
+        flex-direction: column;
     }
 
     #buttons {
@@ -77,8 +79,7 @@ img {
     }
     
     #bullets, #kanye, #dilla {
-        display: flex;
-        flex-direction: column;
+        
     }
     
     .button, .button:hover, .button:visited, .button:active {
