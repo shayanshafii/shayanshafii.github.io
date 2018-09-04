@@ -54,21 +54,29 @@ img {
 @media only screen and (max-device-width : 812px) { 
     
     #banner {
+        display: none;
+/*
         font-size: 1300%;
-        padding-bottom: 3%;
+        padding-bottom: 3%; 
+*/
     }
     
     #poster {
+/*
         width: 90%;
         text-align: center;
         justify-content: center;
         align-content: center;
         margin: auto;
+*/
     }
 
     img {
+        display: none;
+/*
         width: 100%; 
         padding-bottom: 3%;
+*/
     }
 
     #buttons {
@@ -79,7 +87,7 @@ img {
     }
     
     .button, .button:hover, .button:visited, .button:active {
-        font-size: 1200%
+        font-size: 1800%
     }
     
 }
