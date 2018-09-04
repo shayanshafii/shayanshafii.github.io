@@ -54,30 +54,6 @@ body {
 
 @media only screen and (max-device-width : 812px) { 
     
-    #banner, #poster {
-        display: none;
-    }
-    
-    #wrapper {
-        width: 90%;
-        text-align: center;
-        justify-content: center;
-        align-content: center;
-        margin: auto;
-    }
-    
-    #buttons {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        padding-top: 10%;
-    }
-    
-    .button, .button:hover, .button:visited, .button:active {
-        font-size: 1500%;
-        padding-bottom: 25%;
-    }
-    
     /* keyframes for fade */
     @-webkit-keyframes fade_in {
         0%   { opacity: 0; }
@@ -108,6 +84,30 @@ body {
         -webkit-animation-duration: 2s;
         -moz-animation-duration: 2s;
         animation-duration: 2s;
+    }
+    
+    #banner, #poster {
+        display: none;
+    }
+    
+    #wrapper {
+        width: 90%;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        margin: auto;
+    }
+    
+    #buttons {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 10%;
+    }
+    
+    .button, .button:hover, .button:visited, .button:active {
+        font-size: 1500%;
+        padding-bottom: 25%;
     }
     
     #projects {
