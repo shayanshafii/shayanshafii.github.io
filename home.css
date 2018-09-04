@@ -82,6 +82,13 @@ img {
         margin: 0%;
     }
     
+    #projects, #sounds, #100p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
     #bullets_div, #kanye_div, #dilla_div {
         padding: 10%;
     }
