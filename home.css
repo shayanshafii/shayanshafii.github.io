@@ -81,8 +81,6 @@ img {
     }
     
     #bullets_div, #kanye_div, #dilla_div {
-        display: flex;
-        flex-direction: column;
         padding-bottom: 3%;
     }
     
