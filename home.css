@@ -76,13 +76,15 @@ img {
         justify-content: space-between;
     }
     
-    #bullets, #kanye, #dilla {
+    #bullets_div, #kanye_div, #dilla_div {
         display: flex;
         flex-direction: column;
+        padding-bottom: 3%;
     }
     
     .button, .button:hover, .button:visited, .button:active {
-        font-size: 1000%
+        font-size: 1000%;
+        margin: 0%;
     }
     
 }
