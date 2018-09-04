@@ -117,15 +117,15 @@ body {
     }
     
     #sounds {
-        -webkit-animation-delay: 0.5s;
-        -moz-animation-delay: 0.5;
-        animation-delay: 0.5s;
+        -webkit-animation-delay: 1s;
+        -moz-animation-delay: 1;
+        animation-delay: 1s;
     }
     
     #100p {
-        -webkit-animation-delay: 1s;
-        -moz-animation-delay: 1s;
-        animation-delay: 1s;
+        -webkit-animation-delay: 2s;
+        -moz-animation-delay: 2s;
+        animation-delay: 2s;
     }
     
 }
