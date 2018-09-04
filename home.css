@@ -31,13 +31,9 @@ body {
     margin: auto;
 }
 
-img {
+#poster {
     width: 100%;
     padding-bottom: 6%;
-}
-
-#bullets, #kanye, #dilla {
-    display: none;
 }
 
 #buttons {
@@ -76,26 +72,8 @@ img {
         justify-content: space-between;
     }
     
-    #bullets, #kanye, #dilla {
-        display: inherit;
-        padding: 0%;
-        margin: 0%;
-    }
-    
-    #projects, #sounds, #100p {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-    
-    #bullets_div, #kanye_div, #dilla_div {
-        position: relative;
-        padding: 10%;
-    }
-    
     .button, .button:hover, .button:visited, .button:active {
-        font-size: 1000%;
+        font-size: 1500%;
     }
     
 }
