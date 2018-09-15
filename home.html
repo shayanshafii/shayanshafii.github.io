@@ -18,6 +18,9 @@
 
         <!-- favicon -->
         <link rel="icon" type="image/png" href="img/globe_favicon.png">
+        
+        <!-- jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
         <!-- bootstrap css -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -33,6 +36,26 @@
     </head>
 
     <body>
+        <script>
+            jQuery('body').css('display', 'none');
+            jQuery(document).ready(function() {
+                jQuery('body').fadeIn(2000);
+                jQuery('a').on('click', function(event) {
+                   var target = this.getAttribute('target')
+                   if (target != "_blank") {
+                       var new_href = this.getAttribute('href')
+                       event.preventDefault();
+                       jQuery('body').fadeOut(1500, function() {
+                           window.location = new_href
+                       });
+                   } 
+                });
+            });
+            setTimeout(function() {
+               jQuery('body').fadeIn(); 
+            }, 1000);
+        </script>
+        
         <div class="container-fluid">
             <div class="row" id="banner">
                 <p>Shayan Shafii</p>

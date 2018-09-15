@@ -77,9 +77,9 @@ body {
     font-size: 250%;
     opacity: 0;
     
-    -webkit-animation-delay: 3.5s;
-    -moz-animation-delay: 3.5s;
-    animation-delay: 3.5s;
+    -webkit-animation-delay: 3s;
+    -moz-animation-delay: 3s;
+    animation-delay: 3s;
 }
 
 
