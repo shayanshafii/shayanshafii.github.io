@@ -50,10 +50,30 @@
                        });
                    } 
                 });
+                
+                $('#projects').hover(function() {
+                    $('#poster').attr("src",'img/bullets_cropped.jpg');
+                }, function() {
+                    $('#poster').attr("src",'img/london_cropped.jpg');
+                });
+                
+                $('#sounds').hover(function() {
+                    $('#poster').attr("src",'img/kanye_cropped.jpg');
+                }, function() {
+                    $('#poster').attr("src",'img/london_cropped.jpg');
+                });
+                
+                $('#100p').hover(function() {
+                    $('#poster').attr("src", 'img/dilla_cropped.jpg');
+                }, function() {
+                    $('#poster').attr("src",'img/london_cropped.jpg');
+                });
             });
+                
             setTimeout(function() {
                jQuery('body').fadeIn(); 
             }, 1000);
+            
         </script>
         
         <div class="container-fluid">
