@@ -54,38 +54,6 @@ body {
 
 @media only screen and (max-device-width : 812px) { 
     
-    /* keyframes for fade */
-    @-webkit-keyframes fade_in {
-        0%   { opacity: 0; }
-        100% { opacity: 1; }
-    }
-    @-moz-keyframes fade_in {
-        0%   { opacity: 0; }
-        100% { opacity: 1; }
-    }
-    @-o-keyframes fade_in {
-        0%   { opacity: 0; }
-        100% { opacity: 1; }
-    }
-    @keyframes fade_in {
-        0%   { opacity: 0; }
-        100% { opacity: 1; }
-    }
-
-    .fade_in {
-        -webkit-animation: fade_in ease-in 1;
-        -moz-animation: fade_in ease-in 1;
-        animation: fade_in ease-in 1;
-
-        -webkit-animation-fill-mode: forwards;
-        -moz-animation-fill-mode: forwards;
-        animation-fill-mode: forwards;
-
-        -webkit-animation-duration: 2s;
-        -moz-animation-duration: 2s;
-        animation-duration: 2s;
-    }
-    
     #banner, #poster {
         display: none;
     }
@@ -103,11 +71,6 @@ body {
         display: flex;
         flex-direction: column;
         padding-top: 10%;
-        
-        opacity: 0;
-        -webkit-animation-delay: 0s;
-        -moz-animation-delay: 0s;
-        animation-delay: 0s;
     }
     
     .button, .button:hover, .button:visited, .button:active {
