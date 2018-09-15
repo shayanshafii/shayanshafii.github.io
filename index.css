@@ -51,7 +51,7 @@ body {
 }
 
 #globe {
-    padding-top: 3%;
+    padding-top: 5%;
     padding-bottom: 3%;
     width: 31%;
 }
@@ -59,10 +59,10 @@ body {
 #welcome {
     font-family: 'gt-sectra-bold';
     position: absolute;
-    top: 53%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -53%);
-    font-size: 900%;
+    font-size: 950%;
     opacity: 0;
     
     -webkit-animation-delay: 1.5s;
